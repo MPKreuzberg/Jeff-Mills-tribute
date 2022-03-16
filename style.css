@@ -24,20 +24,24 @@
 .header {
   box-sizing: border-box;
   width: auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   text-align:center
 }
 
 .axis {
   width: 100px;
   display: inline-block;
+  float: left;
 }
 .axis img {
   width: inherit;
+  
+  
 }
 .navigation {
   width: 500px;
   margin: 0 auto;
+  margin-top: 2.5rem;
 }
 
 nav {
@@ -72,26 +76,41 @@ h1 {
 }
 
 .solo {
+  display: inline-block;
   font-weight: bolder;
   font-size: 50px;
   color: rgb(255, 255, 255);
   text-align: center;
-
   font-size: LARGE;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", serif;
 }
 
-.solo1 {
+.jeff {
+  text-align: center;
   font-weight: bolder;
-  font-size: 150px;
+  font-size: 100px;
   color: rgb(143, 143, 143);
   text-align: center;
   text-shadow: 2px 2px #40535a;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", serif;
-  margin-top: 30px;
+  margin-top: 50px;
 }
+
+.solo { 
+ margin-bottom: 40px;
+
+
+ 
+}
+
+.foreword {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
 .solo span {
   border: 3px solid rgb(151, 151, 151);
   padding: 10px;
@@ -111,13 +130,14 @@ h1 {
 .discog1 {
   font-family: Roboto;
   color: solid;
+  
 }
 
 .paragraphs {
   font-family: Roboto;
   margin-right: 150px;
   margin-left: 150px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   color: rgb(255, 255, 255);
   text-align: justify;
 }
@@ -136,6 +156,7 @@ img {
   margin-right: 150px;
   margin-left: 150px;
   color: #ffffff;
+  margin-bottom: 40px;
 }
 
 .button {
@@ -143,16 +164,25 @@ img {
   border: none;
   border-radius: 5px;
   color: rgb(255, 255, 255);
-  padding: 15px 32px;
+  padding: 10px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin-left: 150px;
+  margin-bottom: 30px;
 }
 .buttonlink {
   color: rgb(95, 95, 95);
 }
 a {
   color: rgb(0, 236, 236);
+}
+
+dl {
+  list-style-type: none;
+}
+
+hr {
+  margin: 20px;
 }
