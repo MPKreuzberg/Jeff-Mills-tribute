@@ -1,128 +1,157 @@
 * {
-
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.logo {
-    width: 100%;
-    display: inline-block;
-    
-
-
-}
-
-nav {
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 2.5rem;
-}
-
-
-
-
-
-
-h1 {
-    color: rgb(69, 116, 0);
-    font-family: Roboto;
-    border: 3px solid green;
-  }
-  
-  body {
+/* body {
     background-image: url(img/50shades.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     
-  }
-  
-  .solo {
-    font-weight: bolder;
-    font-size: 50px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-  
-    font-size: LARGE;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", serif;
-  }
-  
-  .solo1 {
-    font-weight: bolder;
-    font-size: 150px;
-    color: rgb(143, 143, 143);
-    text-align: center;
-    text-shadow: 2px 2px #40535a;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", serif;
-      margin-top: 30px;
-      
-    
-  }
-  .solo span {
-    border: 3px solid rgb(151, 151, 151);
-    padding: 10px;
-    border-radius: 10px;
-  }
-  
-  .solo1 span {
-    border: 3px solid rgb(29, 29, 29);
-    padding: 10px;
-    border-radius: 30px;
-  }
-  .discog {
-    font-family: Roboto;
-    font-size: larger;
-    color: darkslategray;
-  }
-  .discog1 {
-    font-family: Roboto;
-    color: solid;
-  }
-  
-  .paragraphs {
-    font-family: Roboto;
-    margin-right: 150px;
-    margin-left: 150px;
-    margin-bottom: 40px;
-    color: rgb(255, 255, 255);
-    text-align: justify;
-  }
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    margin-bottom: 40px;
-  }
-  
-  img {
-    border-radius: 20px;
-  }
-  .lists {
-    margin-right: 150px;
-    margin-left: 150px;
-    color: #ffffff;
-  }
-  
-  .button {
-    background-color: #00ffff8f; /* Green */
-    border: none;
-    border-radius: 5px;
-    color: rgb(255, 255, 255);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-left: 150px;
-  }
-  .buttonlink {
-    color: rgb(95, 95, 95);
-  }
-  a {
-    color: rgb(0, 236, 236);
-  }
-  
+  } */
+
+.wrapper {
+  background-image: url(img/50shades.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  max-width: 1000px;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.header {
+  box-sizing: border-box;
+  width: auto;
+  border: 2px solid red;
+}
+
+.axis {
+  width: 100px;
+  display: inline-block;
+}
+.axis img {
+  width: inherit;
+}
+.navigation {
+  width: 500px;
+  margin: 0 auto;
+}
+
+nav {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2.5rem;
+}
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav li a {
+  background-color: rgb(124, 124, 124);
+  text-decoration: none;
+  color: aliceblue;
+  padding: 0.3rem;
+  border-radius: 10px;
+  font-family: roboto;
+}
+
+nav li a:visited {
+  color: rgb(47, 248, 255);
+}
+nav li a:hover {
+  background-color: rgb(223, 226, 43);
+}
+
+h1 {
+  color: rgb(69, 116, 0);
+  font-family: Roboto;
+  border: 3px solid green;
+}
+
+.solo {
+  font-weight: bolder;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+
+  font-size: LARGE;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", serif;
+}
+
+.solo1 {
+  font-weight: bolder;
+  font-size: 150px;
+  color: rgb(143, 143, 143);
+  text-align: center;
+  text-shadow: 2px 2px #40535a;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", serif;
+  margin-top: 30px;
+}
+.solo span {
+  border: 3px solid rgb(151, 151, 151);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.solo1 span {
+  border: 3px solid rgb(29, 29, 29);
+  padding: 10px;
+  border-radius: 30px;
+}
+.discog {
+  font-family: Roboto;
+  font-size: larger;
+  color: darkslategray;
+}
+.discog1 {
+  font-family: Roboto;
+  color: solid;
+}
+
+.paragraphs {
+  font-family: Roboto;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 40px;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+img {
+  border-radius: 20px;
+}
+.lists {
+  margin-right: 150px;
+  margin-left: 150px;
+  color: #ffffff;
+}
+
+.button {
+  background-color: #00ffff8f; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 150px;
+}
+.buttonlink {
+  color: rgb(95, 95, 95);
+}
+a {
+  color: rgb(0, 236, 236);
+}
