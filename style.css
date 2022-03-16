@@ -25,6 +25,7 @@
   box-sizing: border-box;
   width: auto;
   border: 2px solid red;
+  text-align:center
 }
 
 .axis {
